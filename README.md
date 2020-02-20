@@ -6,6 +6,8 @@ The approach describe here will work on any Linux machine, including other embed
 
 It could be argued that this is a “dated approach” to solving the problem of having an embedded system web server interact with a web browser client — it has been around since the 1990’s. To some extent that is true. There are powerful alternatives available such as Java servlets, node.js, Dart, PHP etc. However, this approach:
 
-    has a low overhead on the BeagleBone, as the code is compiled rather than interpreted,
-    permits access to system calls,
-    can interface readily with hardware using the code libraries that I provide in the book.
+    1-has a low overhead on the BeagleBone, as the code is compiled rather than interpreted.
+    
+    2-permits access to system calls
+    
+    3-can interface readily with hardware using the code libraries of CGI C++
